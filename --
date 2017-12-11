@@ -1,3 +1,6 @@
 
 # Enabling sudo
 %wheel        ALL=(ALL)       NOPASSWD: ALL
+
+# Enabling sudo
+%wheel        ALL=(ALL)       NOPASSWD: ALL
