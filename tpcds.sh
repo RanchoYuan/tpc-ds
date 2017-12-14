@@ -252,11 +252,11 @@ script_check()
 
 }
 
-#check_sudo()
-#{
-#	cp $INSTALL_DIR/$REPO/update_sudo.sh $PWD/update_sudo.sh
-#	$PWD/update_sudo.sh
-#}
+check_sudo()
+{
+	cp $INSTALL_DIR/$REPO/update_sudo.sh $PWD/update_sudo.sh
+	$PWD/update_sudo.sh
+}
 
 echo_variables()
 {
