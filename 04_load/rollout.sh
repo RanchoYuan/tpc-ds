@@ -115,9 +115,9 @@ start_log
 schema_name="tpcds"
 table_name="tpcds"
 
-echo "run vacuum!!!!!"
-psql -q -v ON_ERROR_STOP=ON -c "VACUUM full verbose;"
-analyzedb -d $dbname -s tpcds --full -a
+#echo "run vacuum!!!!!"
+#psql -q -v ON_ERROR_STOP=ON -c "VACUUM full verbose;"
+#analyzedb -d $dbname -s tpcds --full -a
 
 tuples="0"
 log $tuples
