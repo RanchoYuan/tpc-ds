@@ -78,11 +78,9 @@ log()
 	if [ "$OSVERSION" == "Linux" ]; then
 		T="$(($(date +%s%N)-T))"
 		# seconds
-		#S="$((T/1000000000))"
-		S="$((T/1000000))"
+		S="$((T/1000000000))"
 		# milliseconds
-		#M="$((T/1000000))"
-		M="$((T/1000000000))"
+		M="$((T/1000000))"
 	else
 		#must be OSX which doesn't have nano-seconds
 		T="$(($(date +%s)-T))"
